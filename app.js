@@ -5,7 +5,7 @@ class Producto{
     }
 }
 
-let compra[]
+let compra=[]
 
 for (let i = 0; i <=2; i++) {
     let bebida = prompt ("Ingrese la bebida deseada: ")
@@ -18,4 +18,4 @@ for (let i = 0; i <=2; i++) {
 const precioBebida = compra.map(dato => dato.precio)
 
 let precioTotal = precioBebida.reduce((a,b) =>a+b)
-alert("Precio total: " + precioTotal)
+alert("El total de la compra es: " + precioTotal)
